@@ -7,7 +7,7 @@ function convertUSDtoWon(event) { //conversion
     const won = usd / 0.00078 //convert to Won
     // Now display on page:
     document.querySelector("h2").innerText = 
-    "$" + usd + "" USD is equal to "  won.toFixed(2) + "
+     + usd + " USD is equal to "  won.toFixed(2) + "
 }
 
 
